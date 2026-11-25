@@ -1,0 +1,4 @@
+/* Почти на всю ширину экрана: по 8 px с каждой стороны, на телефоне 6 px. */
+:is(.forma,.opora) .wrap{width:calc(100% - 16px);max-width:none}
+.forma .royal{--photo-bleed:8px}
+@media(max-width:600px){:is(.forma,.opora) .wrap{width:calc(100% - 12px)}.forma .royal{--photo-bleed:6px}}

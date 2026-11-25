@@ -1,0 +1,31 @@
+/* Умеренные поля и связанный с шириной масштаб всей композиции. */
+:is(.forma,.opora){--page-gutter:clamp(20px,2vw,36px)}
+:is(.forma,.opora) .wrap{width:calc(100% - 2 * var(--page-gutter));max-width:1800px}
+.forma .royal{--photo-bleed:max(var(--page-gutter),calc((100vw - 1800px)/2))}
+:is(.forma,.opora) .topbar{padding-block:clamp(20px,1.6vw,30px)}
+.forma .hero{min-height:clamp(540px,40vw,740px)}
+.forma .hero-content{width:48%;padding:clamp(30px,3vw,56px) 0 clamp(28px,2.7vw,48px) clamp(28px,2.7vw,48px)}
+.forma .hero h1{font-size:clamp(44px,4.65vw,82px)}
+.forma .hero p{max-width:390px;font-size:clamp(17px,1.25vw,21px)}
+.forma .royal{min-height:clamp(520px,38vw,700px);gap:clamp(22px,2vw,38px);grid-template-columns:1fr 1.5fr 1fr;padding-block:28px 20px}
+.forma .royal h2{font-size:clamp(38px,3.7vw,66px)}
+.forma .royal-side{height:clamp(300px,25vw,460px)}
+.forma .royal-center{max-width:590px}
+.forma .royal-center p{max-width:430px;font-size:clamp(16px,1.18vw,20px)}
+.opora .hero{min-height:clamp(500px,37vw,700px)}
+.opora .hero-copy{padding:clamp(30px,2.8vw,50px) 0 clamp(28px,2.7vw,48px) clamp(28px,2.7vw,48px)}
+.opora .hero h1{font-size:clamp(44px,4.3vw,78px)}
+.opora .hero-copy p{max-width:400px;font-size:clamp(17px,1.25vw,21px)}
+.opora .services{padding:clamp(28px,2.4vw,44px);margin-top:clamp(24px,2vw,36px)}
+.opora .section-head h2{font-size:clamp(36px,3.5vw,62px)}
+.opora .section-head p{font-size:clamp(16px,1.18vw,20px);max-width:400px}
+.opora .service-grid{grid-template-rows:repeat(2,clamp(165px,14vw,250px));gap:clamp(12px,1vw,18px)}
+.opora .service-choice{padding:clamp(16px,1.4vw,26px)}
+.opora .service-choice h3{font-size:clamp(21px,1.7vw,30px)}
+.opora .service-choice p{max-width:280px;font-size:clamp(14px,1vw,17px)}
+.opora .service-detail{padding:clamp(24px,2vw,36px);gap:clamp(24px,3vw,54px)}
+.opora .service-detail h3{font-size:clamp(27px,2vw,36px);max-width:620px}
+.opora .service-detail p{max-width:650px;font-size:clamp(16px,1.18vw,20px)}
+@media(max-width:1100px){.forma .royal{grid-template-columns:1fr 1.7fr 1fr;gap:20px}.forma .royal-side{height:300px}.forma .hero-content{padding-left:28px}.opora .hero-copy{padding-left:28px}.opora .service-grid{grid-template-rows:repeat(2,165px)}}
+@media(max-width:800px){:is(.forma,.opora){--page-gutter:20px}.forma .hero{min-height:495px}.forma .hero-content{padding:30px 0 28px 24px}.forma .hero h1{font-size:45px}.forma .royal{grid-template-columns:1fr 2fr 1fr;gap:18px;min-height:490px}.forma .royal h2{font-size:39px}.forma .royal-side{height:250px}.opora .hero{min-height:490px}.opora .hero-copy{padding:28px 0 28px 24px}.opora .hero h1{font-size:44px}.opora .services{padding:26px 22px}.opora .service-grid{grid-template-rows:170px 170px auto}.opora .service-list{gap:10px}.opora .service-choice{padding:16px}.opora .service-choice h3{font-size:20px}.opora .service-detail{padding:22px;gap:22px}}
+@media(max-width:600px){:is(.forma,.opora){--page-gutter:14px}:is(.forma,.opora) .topbar{padding:20px 5px}.forma .hero{min-height:0;margin-top:0}.forma .hero-content{width:100%;padding:28px 24px}.forma .hero h1{font-size:clamp(36px,11.5vw,49px)}.forma .hero p{font-size:17px}.forma .royal{min-height:0;grid-template-columns:1fr 1fr;gap:18px 12px;padding:22px 0 16px}.forma .royal h2{font-size:clamp(34px,10vw,43px)}.forma .royal-side{height:270px}.forma .royal-center{padding:0 12px 10px}.forma .royal-center p{font-size:16px}.opora .hero{min-height:0}.opora .hero-copy{padding:28px 24px 0}.opora .hero h1{font-size:clamp(35px,10.8vw,46px)}.opora .hero-copy p{font-size:17px}.opora .services{padding:25px 18px;margin-top:22px}.opora .section-head h2{font-size:35px}.opora .section-head p{font-size:16px}.opora .service-grid{grid-template-rows:160px 160px auto;gap:12px}.opora .service-choice h3{font-size:22px}.opora .service-choice p{font-size:14px}.opora .service-detail{padding:22px 18px;gap:19px}.opora .service-detail h3{font-size:27px}.opora .service-detail p{font-size:16px}}

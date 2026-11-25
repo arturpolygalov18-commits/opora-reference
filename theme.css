@@ -1,0 +1,26 @@
+.opora{--ink:#f7f8fc;--muted:#bcc0cc;--paper:#0e1015;--soft:#191d28;--accent:#2448e5;background:var(--paper)}
+.opora .brand small{color:#b8becc}
+.opora .hero,.opora .hero:before{background:#20242f}
+.opora .hero:before{background:linear-gradient(110deg,#1e222b,#2b303d)}
+.opora .hero h1{font-weight:500;letter-spacing:-.055em}
+.opora .hero-copy p{color:#c4c9d5}
+.opora .hero-small{background:#0e1015e8;color:#f7f8fc;border-radius:4px;backdrop-filter:none;font-weight:400}
+.opora .btn,.opora .hero .btn,.opora .dialog .btn{min-height:54px;background:#2448e5;color:#fff;border-radius:3px;padding:14px 26px;border:1px solid #2448e5;box-shadow:0 4px 0 #112a9b;transform:none;font-weight:500;transition:background .2s,box-shadow .2s}
+.opora .btn:hover,.opora .hero .btn:hover,.opora .dialog .btn:hover{background:#1739ce;border-color:#1739ce;box-shadow:0 2px 0 #112a9b;transform:none}
+.opora .topbar>.btn{background:#f7f8fc;color:#15171c;border-color:#f7f8fc;border-radius:3px;min-height:46px;box-shadow:none}
+.opora .topbar>.btn:hover{background:#2448e5;border-color:#2448e5;color:#fff}
+.opora .services{background:#fff;color:#181b22}
+.opora .section-head p{color:#5b6371}
+.opora .service-choice{background:#eef0f6;color:#202633}
+.opora .service-choice[aria-expanded=true]{background:#2448e5;color:#fff}
+.opora .service-choice:hover:not([aria-expanded=true]){background:#e1e6f5}
+.opora .service-detail{background:#eef0f6;color:#181b22}
+.opora .service-detail p{color:#586171}
+.opora .service-detail .btn{background:#2448e5;color:#fff}
+.opora .service-detail .btn:hover{background:#1739ce}
+.opora .service-detail li:before{background:#2448e5}
+.opora .service-shot figcaption{background:#0e1015d9;border-radius:3px}
+.opora .service-shot.tall figcaption{background:none}
+.opora .dialog{--paper:#fff;--ink:#181b22;--muted:#586171;--soft:#eef0f6}
+.opora .dialog-copy textarea{border-color:#c8cdd9}
+@media(max-width:600px){.opora .btn,.opora .hero .btn,.opora .dialog .btn{padding:13px 21px;font-size:15px}}
